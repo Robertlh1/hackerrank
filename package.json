@@ -1,0 +1,22 @@
+{
+  "name": "leetcode",
+  "version": "1.0.0",
+  "description": "",
+  "main": "lengthOfLongestSubstring.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Robertlh1/LeetCode.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Robertlh1/LeetCode/issues"
+  },
+  "homepage": "https://github.com/Robertlh1/LeetCode#readme",
+  "dependencies": {
+    "jest": "^27.5.1"
+  }
+}
