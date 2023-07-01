@@ -3,7 +3,6 @@ const linkedListBuilder = require('../Utility Functions/linkedListBuilder')
 
 describe("Testing mergeLists", () => {
   test("mergeLists() should return [1,2,3,3,4] for the lists [1,2,3], [3,4]", () => {
-    [1,2,3] [3,4]
     let head1 = linkedListBuilder([1,2,3]), head2 = linkedListBuilder([3,4])
     let test = mergeLists(head1, head2)
     let result = linkedListBuilder([1,2,3,3,4])
