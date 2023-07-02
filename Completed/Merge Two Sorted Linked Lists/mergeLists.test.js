@@ -1,5 +1,5 @@
 const mergeLists = require('./mergeLists')
-const linkedListBuilder = require('../Utility Functions/linkedListBuilder')
+const linkedListBuilder = require('../../Utility Functions/linkedListBuilder')
 
 describe("Testing mergeLists", () => {
   test("mergeLists() should return [1,2,3,3,4] for the lists [1,2,3], [3,4]", () => {
