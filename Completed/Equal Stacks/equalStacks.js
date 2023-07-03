@@ -15,8 +15,7 @@ Note: An empty stack is still a stack.
 
 function equalStacks(h1, h2, h3) {
   // Write your code here
-  let i = 0, totals = [0,0,0]
-  let arrays = [[...h1], [...h2], [...h3]]
+  let i = 0, totals = [0,0,0], arrays = [[...h1], [...h2], [...h3]]
   while (h1[i] || h2[i] || h3[i]) {
     if (h1[i]) totals[0] += h1[i]
     if (h2[i]) totals[1] += h2[i]
@@ -32,11 +31,9 @@ function equalStacks(h1, h2, h3) {
         min = Math.min(totals[i], min)
         arrays[i].shift()
       }
-
     }
   }
   return min
 }
 
 module.exports = equalStacks
-console.log(equalStacks([3,2,1,1,1],[4,3,2],[1,1,4,1]))
